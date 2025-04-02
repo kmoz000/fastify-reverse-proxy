@@ -455,7 +455,7 @@ async function proxyRequest(request, reply, target, replyOpts, rewriteHeaders) {
 
 module.exports = fp(fastifyHttpProxy, {
     fastify: '5.x',
-    name: '@fastify/http-proxy',
+    name: 'fastify-reverse-proxy',
     encapsulate: true
 })
 module.exports.default = fastifyHttpProxy

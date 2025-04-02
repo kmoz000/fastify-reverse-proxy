@@ -1,6 +1,6 @@
 {
   "name": "fastify-reverse-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fastify plugin to proxy http requests and websockets",
   "main": "index.js",
   "types": "index.d.ts",
