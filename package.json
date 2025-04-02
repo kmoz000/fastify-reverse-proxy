@@ -1,0 +1,37 @@
+{
+  "name": "fastify-reverse-proxy",
+  "version": "1.0.0",
+  "description": "A fastify plugin to proxy http requests and websockets",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "fastify",
+    "proxy",
+    "http",
+    "websocket"
+  ],
+  "author": "@kmoz000",
+  "license": "MIT",
+  "dependencies": {
+    "fast-querystring": "^1.1.2",
+    "fastify": "^5.2.2",
+    "fastify-plugin": "^5.0.1",
+    "ws": "^8.0.0"
+  },
+  "devDependencies": {
+    "fastify": "5.2.2",
+    "jest": "^29.0.0",
+    "tap": "^21.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmoz000/fastify-reverse-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kmoz000/fastify-reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/kmoz000/fastify-reverse-proxy#readme"
+}
