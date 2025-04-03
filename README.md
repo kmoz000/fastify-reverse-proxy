@@ -29,7 +29,7 @@ A Fastify plugin to proxy HTTP and WebSocket requests to an upstream server.
 ## Installation
 
 ```bash
-npm install @fastify/http-proxy
+npm install fastify-http-proxy
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ npm install @fastify/http-proxy
 
 ```javascript
 const Fastify = require('fastify')
-const fastifyHttpProxy = require('@fastify/http-proxy')
+const fastifyHttpProxy = require('fastify-http-proxy')
 
 const fastify = Fastify({ logger: true })
 
@@ -67,7 +67,7 @@ To enable WebSocket proxying, set the `websocket` option to `true`.
 
 ```javascript
 const Fastify = require('fastify')
-const fastifyHttpProxy = require('@fastify/http-proxy')
+const fastifyHttpProxy = require('fastify-http-proxy')
 
 const fastify = Fastify({ logger: true })
 
