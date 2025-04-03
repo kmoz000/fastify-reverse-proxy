@@ -1,5 +1,5 @@
 {
-  "name": "fastify-http-proxy",
+  "name": "@km8oz/fastify-http-proxy",
   "version": "5.2.2",
   "description": "A fastify plugin to proxy http requests and websockets",
   "main": "index.js",
